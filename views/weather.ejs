@@ -1,0 +1,32 @@
+<%- include("partials/header"); -%>
+
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+  </head>
+  <body>
+
+    <h1>Weather</h1>
+    <p>Input any city you want in the text box below and get an up to date forecast:</p>
+
+
+ <form action="/weather" method="post">
+
+  <label for ="cityInput"> City: </label>
+
+  <input id = "cityInput" type="text" name="cityInput">
+
+  <button type="submit" >Go</button>
+
+    </form>
+
+
+  </body>
+</html>
+
+
+
+<%- include("partials/footer"); -%>
+
